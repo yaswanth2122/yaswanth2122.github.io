@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Event Management</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #f6f8fa, #e0e0e0);
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-right input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            margin-right: 20px;
+            outline: none;
+        }
+
+        .nav-right button {
+            background-color: #0078d4;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin: 0 10px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .nav-right button:hover {
+            background-color: #005a9e;
+        }
+
+        .banner {
+            background-image: url('img/1.jpg');
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .banner h1 {
+            font-size: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            padding: 0 50px;
+        }
+
+        .service-box {
+            width: 30%;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .service-box img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .service-box h2 {
+            margin: 20px 0;
+            font-size: 24px;
+            color: #0078d4;
+        }
+
+        .service-box p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        footer {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background-color: #0078d4;
+            padding: 20px;
+            color: white;
+            position: relative;
+        }
+
+        footer img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        footer .contact-details {
+            font-size: 16px;
+        }
+
+        footer .contact-details p {
+            margin-bottom: 10px;
+        }
+
+        footer .contact-us {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            background-color: white;
+            color: #0078d4;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>
+        <img src="img/logo.png" alt="Epic Event Management Logo">
+    </div>
+    <div class="nav-right">
+        <input type="text" placeholder="Search">
+        <button>Sign In</button>
+        <button>Login</button>
+    </div>
+</header>
+
+<section class="banner">
+    <h1>Welcome to Epic Event Management</h1>
+</section>
+
+<section class="services">
+    <div class="service-box">
+        <img src="img/2.jpg" alt="Weddings">
+        <h2>Weddings</h2>
+        <p>Custom Themes: We create unique ceremonies and receptions that tell your love story.<br>
+        Working with Vendors: We handle all details, from flowers to photos.<br>
+        Taking Care of Guests: We make sure everyone feels welcome.</p>
+    </div>
+
+    <div class="service-box">
+        <img src="img/3.jpg" alt="Birthday Parties">
+        <h2>Birthday Parties</h2>
+        <p>Big Birthdays: For special birthdays like 16th or 50th, we create unforgettable moments.<br>
+        Surprise Parties: We plan everything to keep the surprise while ensuring a great celebration.</p>
+    </div>
+
+    <div class="service-box">
+        <img src="img/4.jpg" alt="Anniversaries">
+        <h2>Anniversaries</h2>
+        <p>Romantic Celebrations: Whether it’s silver, gold, or diamond anniversaries, we create intimate and memorable settings.<br>
+        Family Events: Big or small, we bring warmth and happiness to your celebration.</p>
+    </div>
+</section>
+
+<footer>
+    <img src="img/5.jpg" alt="Contact Us">
+    <div class="contact-details">
+        <p><strong>Contact Us:</strong></p>
+        <p>Email: contact@epicevents.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Event Ave, Celebration City</p>
+    </div>
+    <div class="contact-us">Contact Us</div>
+</footer>
+
+</body>
+</html>
